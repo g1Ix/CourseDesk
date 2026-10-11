@@ -1,0 +1,16 @@
+name: 功能建议
+description: 说明需要解决的问题及使用场景
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: 使用场景与需求
+      description: 请勿提供真实个人课表。
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议的解决方式

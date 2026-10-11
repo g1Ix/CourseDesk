@@ -1,0 +1,30 @@
+CourseDesk 1.0.0
+Application source: Copyright (c) 2026 g1Ix, MIT License (see LICENSE).
+
+This application uses separately licensed third-party components:
+
+Python -- Python Software Foundation License
+https://www.python.org/psf/license/
+
+PySide6 / Shiboken6 6.10.1 -- LGPLv3 / GPLv3, as applicable
+https://doc.qt.io/qtforpython-6/licenses.html
+https://code.qt.io/pyside/pyside-setup/
+
+Qt 6.10.1 -- LGPLv3 / GPLv3 and component-specific third-party licenses
+https://www.qt.io/licensing/open-source-lgpl-obligations
+https://code.qt.io/qt/qtbase/
+
+PyInstaller 6.19.0 -- GPL with bootloader distribution exception
+https://pyinstaller.org/en/stable/license.html
+
+Qt / PySide6 runtime libraries are dynamically distributed under _internal.
+Application Python source is included in source/ for the portable release;
+the complete source and build instructions are available in the repository.
+Runtime dependency license files are collected under licenses/ when built.
+Users may replace or relink compatible LGPL runtime libraries for their own
+use, and may reverse engineer those libraries to debug such modifications.
+The application license does not restrict these rights.
+
+Button interaction adapted from smart-emu-83 by vinodjangid07 (MIT).
+https://uiverse.io/vinodjangid07/smart-emu-83
+Full attribution and license: licenses/uiverse-smart-emu-83.txt

@@ -1,0 +1,31 @@
+name: 问题反馈
+description: 使用虚构数据描述可复现的问题
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 版本与系统
+      placeholder: "课序 1.0.0 / Windows 11 / 显示缩放 125%"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 请使用虚构课程，说明操作、预期结果和实际结果。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 截图或日志（可选）
+      description: 提交前遮盖姓名、课表、个人路径及账号信息。
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私检查
+      options:
+        - label: 我已删除附件中的个人课表、凭据与其他敏感信息。
+          required: true

@@ -1,0 +1,13 @@
+{
+  "schema_version": 2,
+  "term": {"name": "演示学期 · 虚构课程", "start": "2026-09-07", "end": "2027-01-10", "first_week": 1},
+  "weekly_rules": [
+    {"id": "demo-math", "course": "示例数学", "teacher": "示例教师", "room": "教学楼 A101", "weekday": 0, "weeks": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18], "period_start": 1, "period_end": 2, "notes": "虚构演示数据"},
+    {"id": "demo-language", "course": "示例语言课程", "teacher": "示例教师", "room": "教学楼 A203", "weekday": 0, "weeks": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18], "period_start": 3, "period_end": 4, "notes": "虚构演示数据"},
+    {"id": "demo-program", "course": "示例编程", "teacher": "示例教师", "room": "实验楼 B202", "weekday": 1, "weeks": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18], "period_start": 3, "period_end": 4, "notes": "虚构演示数据"},
+    {"id": "demo-design", "course": "示例设计与创作", "teacher": "示例教师", "room": "创作室 C301", "weekday": 2, "weeks": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18], "period_start": 5, "period_end": 6, "notes": "虚构演示数据"},
+    {"id": "demo-sport", "course": "示例体育", "teacher": "示例教师", "room": "运动场", "weekday": 3, "weeks": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18], "period_start": 1, "period_end": 2, "notes": "虚构演示数据"},
+    {"id": "demo-workshop", "course": "示例项目实践", "teacher": "示例教师", "room": "实践室 D102", "weekday": 4, "weeks": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18], "period_start": 3, "period_end": 4, "notes": "虚构演示数据"}
+  ],
+  "exceptions": [{"date": "2026-10-14", "mode": "add", "cancel_rule_ids": [], "classes": [{"id": "demo-one", "course": "示例学习交流", "teacher": "示例教师", "room": "讨论室 A105", "period_start": 7, "period_end": 8, "notes": "虚构演示数据"}]}]
+}
